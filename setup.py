@@ -8,8 +8,24 @@ from setuptools import find_packages, setup
 setup(
     name='spciqdata',
     packages=find_packages(include=['spciqdata']),
-    version='0.1',
-    description='My first Python library',
-    author='Wakana',
+    version='0.1.0',
+    description='CIQ API Python library',
+    author='Wakana Sakashita',
     license='MIT',
+    url='https://github.com/sqciqdata/ciqd',
+    install_requires=[            
+          'pandas',
+          'requests',
+          'datetime',
+          'relativedelta',
+          ],
+    classifiers=[
+        'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
+        'Intended Audience :: Developers',      # Define that your audience are developers
+        'Topic :: Software Development',
+        'License :: OSI Approved :: MIT License',               # Again, pick a license
+        'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
+        'Programming Language :: Python :: 3.6',
+        ],
+    
 )
