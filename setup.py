@@ -6,13 +6,13 @@ Created on Aug 12, 2020
 
 from setuptools import find_packages, setup
 setup(
-    name='spciqdata',
-    packages=find_packages(include=['spciqdata']),
+    name='spgmiciq',
+    packages=find_packages(include=['spgmiciq']),
     version='0.1.0',
     description='CIQ API Python library',
     author='Wakana Sakashita',
     license='MIT',
-    url='https://github.com/sqciqdata/ciqd',
+    url='https://github.com/sqgmiciq/ciqd',
     install_requires=[            
           'pandas',
           'requests',
